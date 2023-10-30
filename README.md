@@ -16,10 +16,11 @@ To provide Solar Grid Operators with accurate solar radiation forecasts for the 
 4. [Evaluation](#evaluation)
 5. [Results](#results)
 6. [Conclusion](#conclusion)
-7. [Usage](#usage)
-8. [License](#license)
+7. [Limitations](#limitations)
+8. [Future Work](#futureWork)
+9. [License](#license)
 
-## Datasets
+## <a name="datasets"></a>1. Datasets
 
 The project uses the following datasets:
 
@@ -71,9 +72,36 @@ Detailed results will be updated upon completion of the model evaluation phase.
 
 Insights and conclusions will be updated after the evaluation phase.
 
-## Usage
+## Limitations
 
-Instructions on how to run the code and use the model for real-time forecasting will be provided.
+1. **Limited Datasets**: The model currently only uses SIS, SID, and DAL datasets. Other potentially useful datasets like weather conditions, cloud cover, or humidity levels have not been included.
+  
+2. **Geographical Focus**: The model is tailored for South Spain, limiting its applicability in other geographical areas with different solar irradiance characteristics.
+
+3. **Short-term Forecasts**: While the model specializes in real-time, short-term forecasting (next 30 minutes and beyond), its performance for long-term forecasts has not been evaluated.
+
+4. **Feature Engineering**: While extensive feature engineering has been performed, there may be other unexplored features that could improve the model's performance.
+
+5. **External Factors**: The model doesn't account for unforeseen circumstances like equipment failure or sudden atmospheric changes, which could affect solar irradiance.
+
+6. **Computational Requirements**: The model uses ensemble methods, which may require significant computational resources for training and prediction, potentially limiting its real-time applicability on low-resource devices.
+
+## <a name="futureWork"></a>8. Future Work
+
+1. **Incorporate Additional Datasets**: Include weather-related datasets like temperature, cloud cover, and humidity to improve the model's accuracy.
+
+2. **Long-term Forecasting**: Extend the model for long-term forecasting and assess its performance.
+
+3. **Optimization**: Explore hyperparameter tuning and feature selection methods to enhance model performance.
+
+4. **Real-Time Data Ingestion**: Implement a real-time data pipeline to continuously update the model with new data for improved accuracy.
+
+5. **Geographical Expansion**: Adapt the model for different geographical areas and evaluate its performance.
+
+6. **Deployment Scalability**: Optimize the model and its deployment setup for scalability, to handle higher volumes of queries.
+
+7. **User Interface Enhancements**: Improve the UI/UX of the deployed model for easier usage by grid operators.
+
 
 ## License
 
