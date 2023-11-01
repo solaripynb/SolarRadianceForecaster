@@ -1,7 +1,7 @@
 # Solar Radiance Forecaster - Spain
 ---
 > **Note for Stakeholders and Interested Parties**:
-The information provided in this README serves as an executive summary of the Solar Radiance Forecaster project. For more advanced forecasting solutions, including higher granularity up to 30-minute intervals or cutting-edge forecasting methodologies, you are invited to connect with me directly on [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar) for a tailored approach to meet your specific requirements.
+The information provided in this README serves as an executive summary of the Solar Radiance Forecaster project. For more advanced, real-time forecasting solutions, including higher granularity up to 30-minute intervals or cutting-edge forecasting methodologies, you are invited to connect with me directly on [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar) for a tailored approach to meet your specific requirements.
 ---
 
 ## Table of Contents
