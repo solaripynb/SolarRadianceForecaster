@@ -281,16 +281,6 @@ A t-test was conducted to determine whether the means of the predicted and actua
 
 ---
 
-1. **Tree-based Models**: Random Forest, XGBoost, and GradientBoostingRegressor models performed exceptionally well, with high \( R^2 \) scores and low error metrics (MAE, MSE, RMSE) on both validation and test sets.
-  
-2. **LSTM Model**: Despite its capability to capture long-term dependencies, the LSTM model didn't perform as well as the tree-based models in terms of MAE.
-
-3. **Feature Importance**: Features like rolling means and sudden drops in solar irradiance (`Gb(i)_drop`) were consistently important across multiple models, suggesting these features capture crucial aspects of solar radiation.
-
-4. **Statistical Testing**: T-tests generally failed to reject the null hypothesis, adding a layer of statistical validation to the models' performance.
-
----
-
 ##  <a name="acknowledgments"></a>10. Acknowledgments
 
 I would like to extend my deepest gratitude to everyone who contributed to the success of this project. Your expertise, feedback, and encouragement have been invaluable.
