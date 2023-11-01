@@ -1,5 +1,8 @@
 # Solar Radiance Forecaster - Spain
 ---
+> **Note for Stakeholders and Interested Parties**:
+The information outlined in this README serves as a concise summary of the foundational solar radiation forecasting model. If your requirements necessitate more advanced capabilities, such as higher time granularity forecasts up to 30-minute intervals or the application of the latest forecasting techniques, I invite you to reach out to me directly for a customized solution. You can connect with me on [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar)
+---
 
 ### Table of Contents
 1. [Introduction](#introduction)
