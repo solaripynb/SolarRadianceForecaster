@@ -259,11 +259,13 @@ A t-test was conducted to determine whether the means of the predicted and actua
 
 ##  <a name="limitations"></a>8. Limitations
 
-1. **Computational Expense**: The Random Forest and XGBoost models, despite their high accuracy, can be computationally intensive.
+1. **No Real-time Validation**: The models were not validated in a real-time operational setting, which is the ultimate test of their utility.
 
-2. **Data Dependency**: The models are highly dependent on the quality and quantity of the data. Any inconsistency in data collection can affect the performance.
+2. **Computational Expense**: The Random Forest and XGBoost models, despite their high accuracy, can be computationally intensive.
 
-3. **LSTM Performance**: The LSTM model did not perform as well as the tree-based models, indicating limitations in capturing the time-dependent nature of the data.
+3. **Data Dependency**: The models are highly dependent on the quality and quantity of the data. Any inconsistency in data collection can affect the performance.
+
+4. **LSTM Performance**: The LSTM model did not perform as well as the tree-based models, indicating limitations in capturing the time-dependent nature of the data.
 
 ---
 
