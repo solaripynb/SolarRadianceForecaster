@@ -293,7 +293,13 @@ A t-test was conducted to determine whether the means of the predicted and actua
 
 ##  <a name="acknowledgments"></a>10. Acknowledgments
 
-Dataset: PVGIS-SARAH2, European Union, 2001-2023
+I would like to extend my deepest gratitude to everyone who contributed to the success of this project. Your expertise, feedback, and encouragement have been invaluable.
+
+Special thanks go to the team of specialized scientists at PVGIS-SARAH2, funded by the European Union from 2001 to 2023. Your groundbreaking work in the field of solar radiation has laid the foundation for this project, and your collaboration has been a cornerstone in achieving the level of accuracy and reliability that this model provides.
+
+I also want to acknowledge the broader scientific community for their continuous work in advancing our understanding of solar energy, as well as the open-source community for providing the tools that make projects like this possible.
+
+Your contributions are not just powering this project; they are powering a more sustainable future for all.
 
 ---
 
