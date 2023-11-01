@@ -6,18 +6,17 @@ The information outlined in this README serves as a concise summary of the found
 
 ### Table of Contents
 1. [Introduction](#introduction)
-2. [Data](#data)
+2. [Data Collection and Preprocessing](#data)
 3. [Exploratory Data Analysis](#exploratory-data-analysis)
-4. [Feature Engineering](#feature-engineer)
-5. [Models](#models)
-6. [Evaluation](#evaluation)
-7. [Feature Importance](#feature-importance)
-8. [Summary](#summary)
-9. [Conclusion](#conclusion)
-10. [Recommendations](#recommendations) 
-11. [Limitations](#limitations)
-12. [Acknowledgments](#acknowledgments)
-13. [License](#license)
+4. [Modeling](#modeling)
+5. [Model Evaluation](#model-evaluation)
+6. [Insights](#insights)
+7. [Recommendations](#recommendations)
+8. [Limitations](#limitations)
+9. [Future Work](#future-work)
+10. [Acknowledgments](#acknowledgments) 
+11. [License](#license)
+12. [Contact](#contact)
 
 ---
 
@@ -27,7 +26,7 @@ Solar energy is an increasingly important part of the global energy mix. Accurat
 
 ---
 
-### <a name="data"></a>2. Data
+### <a name="data"></a>2. Data Collection and Preprocessing
 
 - Source: PVGIS-SARAH2, European Union, 2001-2023
 - Features: Solar irradiance (Gb(i), Gd(i), Gr(i)), Sun height, Temperature, Wind speed, etc.
@@ -56,7 +55,7 @@ Certainly, adding a dedicated section to describe the Exploratory Data Analysis 
 
 ---
 
-###  <a name="feature-engineer"></a>4. Feature Engineering
+###  <a name="modeling"></a>4. Modeling
 
 #### Lagged Features
 
@@ -84,7 +83,7 @@ Certainly, adding a dedicated section to describe the Exploratory Data Analysis 
 
 ---
 
-###  <a name="models"></a>5. Models
+###  <a name="model-evaluation"></a>5. Model Evaluation
 
 1. **Random Forest**: A bagging ensemble method that performs well on this dataset.
 2. **XGBoost**: A boosting algorithm known for high performance in structured datasets.
@@ -93,7 +92,7 @@ Certainly, adding a dedicated section to describe the Exploratory Data Analysis 
 
 ---
 
-###  <a name="evaluation"></a>6. Evaluation
+###  <a name="insights"></a>6. Insights
 
 The models are evaluated based on the following metrics:
 
@@ -104,13 +103,13 @@ The models are evaluated based on the following metrics:
 
 ---
 
-###  <a name="feature-importance"></a>7. Feature Importance
+###  <a name="recommendations"></a>7. Recommendations
 
 Feature importance is evaluated for tree-based models to understand which variables most significantly influence predictions. This is crucial for model interpretability and further refinement.
 
 ---
 
-###  <a name="summary"></a>8. Summary
+###  <a name="limitations"></a>8. Limitations
 
 1. **Tree-based Models**: Random Forest, XGBoost, and GradientBoostingRegressor models performed exceptionally well, with high \( R^2 \) scores and low error metrics (MAE, MSE, RMSE) on both validation and test sets.
   
@@ -122,42 +121,27 @@ Feature importance is evaluated for tree-based models to understand which variab
 
 ---
 
-###  <a name="conclusion"></a>9. Conclusion
+###  <a name="future-work"></a>9. Future Work
 
 The project successfully developed predictive models for solar radiation forecasting with high accuracy. Among the models tested, tree-based models like Random Forest and XGBoost stood out as the most effective.
 
 ---
 
-###  <a name="recommendations"></a>10. Recommendations
-
-1. **Opt for Tree-based Models**: Given their performance, tree-based models are recommended for operational deployment.
-  
-2. **Feature Engineering**: Continue to explore other features that could capture cloud movement or other atmospheric conditions to enhance the model further.
-  
-3. **Hyperparameter Tuning**: For deployment, hyperparameter tuning should be performed to optimize the model's performance further.
-
----
-
-###  <a name="limitations"></a>11. Limitations
-
-1. **Lack of Cloud Cover Data**: Cloud cover could provide valuable information but was not available in the dataset.
-  
-2. **Model Interpretability**: LSTM models are generally more difficult to interpret compared to tree-based models.
-  
-3. **Computational Cost**: Models like XGBoost and Random Forest can be computationally expensive to train on very large datasets.
-
-4. **No Real-time Validation**: The models were not validated in a real-time operational setting, which is the ultimate test of their utility.
-
-By addressing these limitations and following the recommendations, the predictive models can be further optimized for practical, real-world applications in solar energy forecasting.
-
----
-
-###  <a name="acknowledgments"></a>12. Acknowledgments
+###  <a name="acknowledgments"></a>10. Acknowledgments
 
 Dataset: PVGIS-SARAH2, European Union, 2001-2023
 
 ---
 
-###  <a name="license"></a>13. License
+###  <a name="license"></a>11. License
 
 This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+###  <a name="contact"></a>12. Contact
+
+
+
+
+
