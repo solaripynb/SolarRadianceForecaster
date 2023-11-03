@@ -221,5 +221,3 @@ Your interest and expertise could play a crucial role in shaping the next phase 
 ## <a name="license"></a>6. License
 
 This project is licensed under the MIT License.
-
-Thank you for visiting my project!
