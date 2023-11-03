@@ -1,4 +1,4 @@
-# Solar Radiance Forecaster - Spain
+# Welcome to Solar Radiance Forecaster
 
 > **Note for Stakeholders and Interested Parties**:
 This README provides an executive summary of the Solar Radiance Forecaster project. For an in-depth analysis and comprehensive project details, please request the full report. Additionally, for advanced, real-time forecasting solutions with higher granularity (up to 30-minute intervals) and cutting-edge methodologies, feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar) for a tailored approach to meet your specific requirements.
@@ -221,3 +221,5 @@ Your interest and expertise could play a crucial role in shaping the next phase 
 ## <a name="license"></a>6. License
 
 This project is licensed under the MIT License.
+
+Thank you for visiting my project!
