@@ -68,54 +68,54 @@ The data for this project was sourced from the Photovoltaic Geographical Informa
 Preprocessing Steps:
 Data preprocessing involved several critical steps to ensure quality and consistency:
 
-    Time Alignment: Adjustment of timestamps to a common format and frequency to maintain data continuity.
-    Anomaly Detection: Identification of outliers using statistical techniques, such as Z-Score and Tukey's method, and subsequent remediation.
-    Type Validation: Ensuring that all data columns adhere to their specified data types for accurate computations.
-    Feature Engineering: Creation of additional data features, such as lagged variables, temporal attributes, and moving averages, to enhance model input.
-    Data Imputation: Handling of missing values through robust imputation methods, ensuring a complete dataset for model training.
+- Time Alignment: Adjustment of timestamps to a common format and frequency to maintain data continuity.
+- Anomaly Detection: Identification of outliers using statistical techniques, such as Z-Score and Tukey's method, and subsequent remediation.
+- Type Validation: Ensuring that all data columns adhere to their specified data types for accurate computations.
+- Feature Engineering: Creation of additional data features, such as lagged variables, temporal attributes, and moving averages, to enhance model input.
+- Data Imputation: Handling of missing values through robust imputation methods, ensuring a complete dataset for model training.
     
 ### <a name="exploratory-data-analysis"></a>2.2 Exploratory Data Analysis
 
 Visual Analysis:
 
-    Time-Series Visualization: To identify trends, seasonality, and patterns within the solar radiation data.
-    Distribution Plots: To understand the underlying distribution of the data and identify potential skewness or kurtosis.
+- Time-Series Visualization: To identify trends, seasonality, and patterns within the solar radiation data.
+- Distribution Plots: To understand the underlying distribution of the data and identify potential skewness or kurtosis.
 
 Statistical Analysis:
 
-    Correlation Matrix: To uncover linear relationships between variables and prevent multicollinearity in the model.
-    Statistical Testing: Application of tests like the Augmented Dickey-Fuller test to check for stationarity and the Shapiro-Wilk test for normality.
+- Correlation Matrix: To uncover linear relationships between variables and prevent multicollinearity in the model.
+- Statistical Testing: Application of tests like the Augmented Dickey-Fuller test to check for stationarity and the Shapiro-Wilk test for normality.
 
 Anomaly Reassessment:
 
-    Further scrutiny of detected anomalies and their impact on the dataset. Anomalies were addressed by imputation or exclusion, based on their nature and potential impact.
+- Further scrutiny of detected anomalies and their impact on the dataset. Anomalies were addressed by imputation or exclusion, based on their nature and potential impact.
     
 ### <a name="modeling-approach"></a>2.3 Modeling Approach
 
 Model Selection:
 
-    Tree-Based Models: Random Forest and Gradient Boosting were chosen for their robustness in handling non-linear relationships and feature importance insights.
-    Neural Networks: LSTM networks were employed to capture the temporal dependencies in the data, given the time-series nature of solar radiation.
+- Tree-Based Models: Random Forest and Gradient Boosting were chosen for their robustness in handling non-linear relationships and feature importance insights.
+- Neural Networks: LSTM networks were employed to capture the temporal dependencies in the data, given the time-series nature of solar radiation.
 
 Model Training:
 
-    The models were trained on a historical dataset, with hyperparameter tuning performed to optimize their performance.
+- The models were trained on a historical dataset, with hyperparameter tuning performed to optimize their performance.
 
 Performance Metrics:
 
-    A range of metrics, including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and the Coefficient of Determination (R2R2), were used to evaluate model performance.
+- A range of metrics, including Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and the Coefficient of Determination (R2R2), were used to evaluate model performance.
 
 Validation Strategy:
 
-    Cross-validation was employed to assess model robustness, with a specific focus on time-series cross-validation techniques given the sequential data structure.
+- Cross-validation was employed to assess model robustness, with a specific focus on time-series cross-validation techniques given the sequential data structure.
 
 Feature Importance Analysis:
 
-    Post-training analysis was conducted to identify the most significant predictors and understand the driving factors behind the model's predictions.
+- Post-training analysis was conducted to identify the most significant predictors and understand the driving factors behind the model's predictions.
 
 Model Interpretability:
 
-    Efforts were made to ensure model interpretability, with the use of tools and techniques that help explain the outcomes of complex models.
+- Efforts were made to ensure model interpretability, with the use of tools and techniques that help explain the outcomes of complex models.
 
 ---
 
@@ -126,76 +126,66 @@ Model Interpretability:
 Model Evaluation:
 Each model was rigorously evaluated using a variety of metrics to determine its predictive accuracy and generalizability:
 
-    Random Forest: Showcased strong performance with high R2R2 values and low error metrics on both the validation and test sets. The performance indicates the model's ability to capture the complex interactions in the data effectively.
+- Random Forest: Showcased strong performance with high R2R2 values and low error metrics on both the validation and test sets. The performance indicates the model's ability to capture the complex interactions in the data effectively.
 
-    XGBoost: Performed comparably to the Random Forest, with slightly better error metrics. The model's gradient boosting framework provided a strong mechanism for handling the non-linear patterns in the dataset.
+- XGBoost: Performed comparably to the Random Forest, with slightly better error metrics. The model's gradient boosting framework provided a strong mechanism for handling the non-linear patterns in the dataset.
 
-    Gradient Boosting Regressor: Although it had higher error metrics compared to Random Forest and XGBoost, it still maintained a reasonable R2R2 score, suggesting its usefulness as a potential model in an ensemble approach.
+- Gradient Boosting Regressor: Although it had higher error metrics compared to Random Forest and XGBoost, it still maintained a reasonable R2R2 score, suggesting its usefulness as a potential model in an ensemble approach.
 
-    LSTM: The LSTM model, while not outperforming tree-based models, did offer valuable insights into the temporal dynamics of the data. Further optimization and architectural adjustments could enhance its performance in future iterations.
+- LSTM: The LSTM model, while not outperforming tree-based models, did offer valuable insights into the temporal dynamics of the data. Further optimization and architectural adjustments could enhance its performance in future iterations.
 
 The models were compared on the basis of Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the Coefficient of Determination (R2R2). The evaluation highlighted the importance of selecting the right model based on the nature of the data and the specific use case.
 
 Cross-Validation:
-Cross-validation results aligned closely with the test set performance, reinforcing confidence in the model's stability and its capacity to generalize well to unseen data.
+
+- Cross-validation results aligned closely with the test set performance, reinforcing confidence in the model's stability and its capacity to generalize well to unseen data.
 
 ### <a name="key-findings-and-implications"></a>3.2 Key Findings and Implications
 
 Findings:
 
-    Feature Significance: The analysis revealed that certain features, particularly those related to global radiation, were consistently significant predictors across all models.
-    Anomaly Handling: The project's methodology for identifying and managing anomalies proved to be effective, ensuring the robustness of the predictive models.
-    Model Performance: The tree-based models, due to their ability to handle complex interactions between features, outperformed the LSTM model in terms of accuracy and reliability.
+- Feature Significance: The analysis revealed that certain features, particularly those related to global radiation, were consistently significant predictors across all models.
+- Anomaly Handling: The project's methodology for identifying and managing anomalies proved to be effective, ensuring the robustness of the predictive models.
+- Model Performance: The tree-based models, due to their ability to handle complex interactions between features, outperformed the LSTM model in terms of accuracy and reliability.
 
 Implications:
 
-    Operational Decision-Making: The high accuracy of the tree-based models suggests their potential for operational deployment, where real-time solar radiation predictions can significantly enhance decision-making processes.
-    Resource Optimization: Accurate predictions can lead to better resource allocation, reducing waste and increasing efficiency in the use of solar energy.
-    Policy and Planning: The insights from this study can inform policy decisions and strategic planning, particularly in the context of integrating solar energy into the broader energy mix.
-    Research and Development: The findings underscore the importance of continued research into feature engineering and model optimization to further improve solar radiation forecasting.
+- Operational Decision-Making: The high accuracy of the tree-based models suggests their potential for operational deployment, where real-time solar radiation predictions can significantly enhance decision-making processes.
+- Resource Optimization: Accurate predictions can lead to better resource allocation, reducing waste and increasing efficiency in the use of solar energy.
+- Policy and Planning: The insights from this study can inform policy decisions and strategic planning, particularly in the context of integrating solar energy into the broader energy mix.
+- Research and Development: The findings underscore the importance of continued research into feature engineering and model optimization to further improve solar radiation forecasting.
 
 ---
 
 ## <a name="recommendations-and-future-work"></a>4. Recommendations and Future Work
-### <a name="strategies-for-improvement"></a>4.1 Strategies for Improvement
 
-4.1 Strategies for Improvement
+### <a name="strategies-for-improvement"></a>4.1 Strategies for Improvement
 
 To push the boundaries of solar radiation forecasting, the following strategies are recommended:
 
-    Algorithmic Enhancement: Incorporating ensemble methods that combine the predictions from multiple models can potentially yield more accurate and robust forecasts. Techniques such as model stacking or blending can be explored to leverage the strengths of individual models.
-
-    Feature Expansion: Introducing additional features such as atmospheric conditions, aerosol levels, and albedo effects could improve model performance. Additionally, exploring the inclusion of real-time satellite imagery as input could provide more nuanced predictions.
-
-    Hyperparameter Optimization: Further tuning the hyperparameters of the existing models, especially for complex models like XGBoost and LSTM, could enhance their predictive capabilities.
-
-    Model Interpretability: Implementing tools and techniques for better interpretability of the models can help stakeholders understand the prediction process, thereby increasing trust and facilitating easier adoption of the technology.
+- Algorithmic Enhancement: Incorporating ensemble methods that combine the predictions from multiple models can potentially yield more accurate and robust forecasts. Techniques such as model stacking or blending can be explored to leverage the strengths of individual models.
+- Feature Expansion: Introducing additional features such as atmospheric conditions, aerosol levels, and albedo effects could improve model performance. Additionally, exploring the inclusion of real-time satellite imagery as input could provide more nuanced predictions.
+- Hyperparameter Optimization: Further tuning the hyperparameters of the existing models, especially for complex models like XGBoost and LSTM, could enhance their predictive capabilities.
+- Model Interpretability: Implementing tools and techniques for better interpretability of the models can help stakeholders understand the prediction process, thereby increasing trust and facilitating easier adoption of the technology.
     
 ### <a name="limitations"></a>4.2 Limitations
 
 The current project's limitations must be acknowledged to set realistic expectations and establish a framework for continuous improvement:
 
-    Data Quality and Availability: The models are heavily reliant on the quality and completeness of the input data. Any inaccuracies or gaps in the data can significantly impact the results.
-
-    Model Generalizability: While the models perform well on the dataset for South Spain, their performance on data from different geographical regions or under different climatic conditions has not been evaluated.
-
-    Computational Resources: Some of the more complex models require substantial computational power, which might not be readily available in all operational settings.
-
-    Temporal Resolution: The models currently provide forecasts on an hourly basis. Increasing the temporal resolution to provide more frequent forecasts could be beneficial but also more challenging due to the increased noise in the data.
+- Data Quality and Availability: The models are heavily reliant on the quality and completeness of the input data. Any inaccuracies or gaps in the data can significantly impact the results.
+- Model Generalizability: While the models perform well on the dataset for South Spain, their performance on data from different geographical regions or under different climatic conditions has not been evaluated.
+- Computational Resources: Some of the more complex models require substantial computational power, which might not be readily available in all operational settings.
+- Temporal Resolution: The models currently provide forecasts on an hourly basis. Increasing the temporal resolution to provide more frequent forecasts could be beneficial but also more challenging due to the increased noise in the data.
     
 ### <a name="potential-future-directions"></a>4.3 Potential Future Directions
 
 To ensure the continued evolution and relevance of the SolarRadianceForecaster project, the following future directions are proposed:
 
-    Real-Time Forecasting: Moving towards a system that can process incoming data and update forecasts in real-time would be a significant advancement, allowing for more dynamic and responsive solar energy management.
-
-    Deep Learning Architectures: Experimenting with advanced neural network architectures, such as Convolutional Neural Networks (CNNs) for image-based predictions and Recurrent Neural Networks (RNNs) for sequential data, might uncover patterns missed by current models.
-
-    Geographical Expansion: Adapting and validating the models for different regions would increase their utility and provide insights into the spatial variability of solar radiation.
-
-    Integration with Energy Systems: Combining solar radiation forecasts with models of energy demand and production could lead to the development of a more comprehensive energy management system.
-
-    Climate Change Projections: Incorporating climate change projections into the models could provide valuable insights into the long-term trends of solar radiation and assist in strategic planning for energy infrastructure.
+- Real-Time Forecasting: Moving towards a system that can process incoming data and update forecasts in real-time would be a significant advancement, allowing for more dynamic and responsive solar energy management.
+- Deep Learning Architectures: Experimenting with advanced neural network architectures, such as Convolutional Neural Networks (CNNs) for image-based predictions and Recurrent Neural Networks (RNNs) for sequential data, might uncover patterns missed by current models.
+- Geographical Expansion: Adapting and validating the models for different regions would increase their utility and provide insights into the spatial variability of solar radiation.
+- Integration with Energy Systems: Combining solar radiation forecasts with models of energy demand and production could lead to the development of a more comprehensive energy management system.
+- Climate Change Projections: Incorporating climate change projections into the models could provide valuable insights into the long-term trends of solar radiation and assist in strategic planning for energy infrastructure.
 
 ---
 
@@ -205,13 +195,10 @@ To ensure the continued evolution and relevance of the SolarRadianceForecaster p
 
 The realization of the SolarRadianceForecaster project is a testament to collaborative effort and scientific exchange. I extend my deepest appreciation to:
 
-    Scientific and Data Partners: The invaluable datasets and insights provided by entities like PVGIS and other open-source data repositories have been the foundation of this project's success.
-
-    Academic Collaborators: Researchers and students who have contributed their expertise and innovative ideas to refine the forecasting models.
-
-    Open-Source Community: Developers and contributors in the open-source community have created and maintained the tools that made the development of this project possible.
-
-    Personal Network: Colleagues, mentors, and peers who have offered their support, constructive criticism, and encouragement throughout the development process.
+- Scientific and Data Partners: The invaluable datasets and insights provided by entities like PVGIS and other open-source data repositories have been the foundation of this project's success.
+- Academic Collaborators: Researchers and students who have contributed their expertise and innovative ideas to refine the forecasting models.
+- Open-Source Community: Developers and contributors in the open-source community have created and maintained the tools that made the development of this project possible.
+- Personal Network: Colleagues, mentors, and peers who have offered their support, constructive criticism, and encouragement throughout the development process.
 
 Your collective contributions have not only propelled this project forward but also underscored the collaborative nature of scientific progress.
 
