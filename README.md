@@ -33,6 +33,8 @@ This README provides an executive summary of the Solar Radiance Forecaster proje
 
 Solar energy is a critical component of the global renewable energy portfolio. Effective solar radiation forecasting is vital for optimizing the utilization of this renewable resource and ensuring efficient grid management. This repository represents a benchmark in applying data science rigor and innovative algorithms to address the challenges of short-term solar radiation forecasting.
 
+For a comprehensive understanding of our in-depth analytical processes, detailed methodology, and extensive data insights, we encourage you to explore our [Wiki](https://github.com/solaripynb/SolarRadianceForecaster/wiki) which serves as an extension to this document, offering a deeper dive into the project's core.
+
 ### <a name="project-overview"></a>1.1 Project Overview
 
 The SolarRadianceForecaster is an advanced predictive analytics platform, designed with machine learning algorithms to accurately forecast solar radiation in the short-term. Focused on the South Spain region, the model is optimized for a 60-minute forecast horizon, providing critical information to facilitate real-time decision-making in solar grid operations.
