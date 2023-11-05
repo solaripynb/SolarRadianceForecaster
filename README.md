@@ -60,16 +60,16 @@ Visual and statistical analyses were conducted, including time-series visualizat
   </a>
 </p>
 <p align="center">
-  <em>Figure 1: The heatmap of Average Beam Irradiance displays the interaction between the time of day and the day of the week, revealing peak solar radiation periods and consistent weekly patterns. This visualization is pivotal in understanding when solar energy is most abundant and could inform grid operators about expected energy supply variations throughout the week.</em>
+  <em>Figure 1: The heatmap of Average Beam Irradiance displays the interaction between the time of day and the day of the week, revealing peak solar radiation periods and consistent weekly patterns.</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/7ba16770-c42c-4110-8524-6f397598ff28">
-    <img src="https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/7ba16770-c42c-4110-8524-6f397598ff28" width="600">
+  <a href="https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/21fc0611-b29c-4443-bbc4-033198a95367">
+    <img src="https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/21fc0611-b29c-4443-bbc4-033198a95367" width="600">
   </a>
 </p>
 <p align="center">
-  <em>Figure 2: The Daily Profiles of Solar Irradiance graph illustrates the typical cycle of solar energy availability throughout the day. It showcases the average irradiance values from sunrise to sunset, highlighting the midday peak and allowing for a detailed understanding of daily energy production potential.</em>
+  <em>Figure 2: The Daily Profile Plot displays the average solar irradiance throughout the daylight hours for each day of the month.</em>
 </p>
 
 <p align="center">
