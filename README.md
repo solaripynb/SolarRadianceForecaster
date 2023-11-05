@@ -51,7 +51,23 @@ Data from the Photovoltaic Geographical Information System (PVGIS) has been util
 ### 2.2 Exploratory Data Analysis
 
 Visual and statistical analyses were conducted, including time-series visualization, distribution plots, correlation matrices, and statistical testing to ensure the data's quality and readiness for model training.
-    
+
+---
+
+![Average Beam Irradiance Heatmap (Hour of Day vs  Day of Week)](https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/96d2b61c-db2d-4102-ab60-2d550f8a1e47)
+
+*Figure 1: The heatmap of Average Beam Irradiance displays the interaction between the time of day and the day of the week, revealing peak solar radiation periods and consistent weekly patterns. This visualization is pivotal in understanding when solar energy is most abundant and could inform grid operators about expected energy supply variations throughout the week.*
+
+![Daily Profiles of Solar Irradiance](https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/7ba16770-c42c-4110-8524-6f397598ff28)
+
+*Figure 2: The Daily Profiles of Solar Irradiance graph illustrates the typical cycle of solar energy availability throughout the day. It showcases the average irradiance values from sunrise to sunset, highlighting the midday peak and allowing for a detailed understanding of daily energy production potential.*
+
+![Monthly Boxplots of Beam Irradiance (Gb(i)](https://github.com/solaripynb/SolarRadianceForecaster/assets/148157132/f32e752d-bc8b-49e6-a698-d5f4109a3cfc)
+
+*Figure 3: Monthly Boxplots of Beam Irradiance offer a granular view of the data's distribution across different months. They highlight the central tendency and variability within each month, demonstrating the seasonal influence on solar radiation. Outliers are also evident, which may indicate anomalous days with unusual weather conditions.*
+
+---
+
 ### 2.3 Modeling Approach
 
 - **Model Selection:** Random Forest, Gradient Boosting, and LSTM networks were chosen for their strengths in handling different aspects of the data.
