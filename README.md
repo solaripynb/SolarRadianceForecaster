@@ -50,7 +50,7 @@ Data from the Photovoltaic Geographical Information System (PVGIS) has been util
     
 ### 2.2 Exploratory Data Analysis
 
-Visual and statistical analyses were conducted, including time-series visualization, distribution plots, correlation matrices, and statistical testing to ensure the data's quality and readiness for model training.
+Exploratory data analysis integrates visual exploration and statistical testing to confirm data integrity and reveal fundamental patterns. The following visuals and summarized statistical findings delineate the dataset's features, informing the predictive modeling strategy.
 
 ---
 
