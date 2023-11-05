@@ -19,7 +19,7 @@ This README provides an executive summary of the Solar Radiance Forecaster proje
 
 Solar energy is a critical component of the global renewable energy portfolio. Effective solar radiation forecasting is vital for optimizing the utilization of this renewable resource and ensuring efficient grid management. This repository represents a benchmark in applying data science rigor and innovative algorithms to address the challenges of short-term solar radiation forecasting.
 
-For comprehensive analysis and detailed project insights, please refer to the [project Wiki](https://github.com/solaripynb/SolarRadianceForecaster/wiki).
+For comprehensive analysis, please refer to the [project Wiki](https://github.com/solaripynb/SolarRadianceForecaster/wiki).
 
 ### 1.1 Project Overview
 
