@@ -23,7 +23,7 @@ For comprehensive analysis, please refer to the [project Wiki](https://github.co
 
 ### 1.1 Project Overview
 
-The SolarRadianceForecaster is an advanced predictive analytics platform, designed with machine learning algorithms to accurately forecast solar radiation in the short-term. Focused on the South Spain region, the model is optimized for a 60-minute forecast horizon, providing critical information to facilitate real-time decision-making in solar grid operations.
+The SolarRadianceForecaster is an advanced predictive analytics platform, designed with machine learning algorithms to accurately forecast solar radiation in the short-term. Focused on the South Spain region, the model is optimized for a 60-minute forecast horizon, providing critical information to facilitate real-time decision-making in solar grid operations. 
 
 ### 1.2 Objective
 
