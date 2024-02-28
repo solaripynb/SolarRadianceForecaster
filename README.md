@@ -134,13 +134,13 @@ To push the boundaries of solar radiation forecasting, the following strategies 
 
 ---
 
-## <a name="acknowledgments-and-contact"></a>5. Acknowledgments and Contact
+## <a name="acknowledgments-and-contact"></a>5. Acknowledgments and Contact 
 
 ### 5.1 Acknowledgments
 
 Gratitude is extended to all contributors, especially the team at PVGIS-SARAH2, for their foundational work in solar radiation. The scientific and open-source communities have also played a crucial role in enabling this project.
 
-### 5.2 Contact for Further Information
+### 5.2 Contact for Further Information 
 
 For inquiries or discussions about collaboration, please reach out through [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar).
 
